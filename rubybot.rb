@@ -1,6 +1,6 @@
 require 'discordrb'
 
-bot = Discordrb::Bot.new token: 'Nzc2Mjg3MTk3MjcxNjg3MTc4.X6yryg.iwQSaEM2GC3icb_1EUOH9kFm-Q8', client_id: 776287197271687178, prefix: '?'
+bot = Discordrb::Bot.new token: , client_id: , prefix: '?'
 
 bot.command :cheese do |event|
     random_e = rand(0..21).times { puts "e" }
