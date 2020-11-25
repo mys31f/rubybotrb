@@ -1,9 +1,9 @@
 module Bot::DiscordCommands
     module Say
         extend Discordrb::Commands::CommandsContainer
+        extend Discordrb::Message
         comand :rubysay do |event|
-            say = gets.chomp
-            bot.respond say
+            bot.respond.content
         end 
     end 
 end
