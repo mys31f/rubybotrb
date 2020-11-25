@@ -48,15 +48,15 @@ module Bot::DiscordCommands
                     bot.create_reaction(<:HanamaruNeso:661033812834123776>)
                     bot.respond "Gave Umi neso to #{neso.mentions}"
                 elsif
-                    bot.create_reaction(<:UmiNeso:661033923102375986>)
+                    bot.create_reaction(<:YohaneNeso:661033922892791849>)
                     bot.respond "Gave Umi neso to #{neso.mentions}"
                 elsif
-                    bot.create_reaction(<:UmiNeso:661033923102375986>)
+                    bot.create_reaction(<:DiaNeso:661033526107439105>)
                     bot.respond "Gave Umi neso to #{neso.mentions}"
                 elsif
-                    bot.create_reaction(<:UmiNeso:661033923102375986>)
+                    bot.create_reaction(<:MariNeso:661033813127987210>)
                     bot.respond "Gave Umi neso to #{neso.mentions}"
                 elsif
-                    bot.create_reaction(<:UmiNeso:661033923102375986>)
+                    bot.create_reaction(<:KananNeso:661033813245427732>)
                     bot.respond "Gave Umi neso to #{neso.mentions}"
                 end
