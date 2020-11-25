@@ -1,2 +1,2 @@
-source 'htttps://rubygems.org'
+source 'https://rubygems.org'
 gem 'discordrb'
