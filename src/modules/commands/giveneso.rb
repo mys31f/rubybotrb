@@ -28,34 +28,34 @@ module Bot::DiscordCommands
                 elsif neso.content.include? "nozomi"
                     bot.create_reaction(<:NozomiNeso:661033813560000517>)
                     bot.respond "Gave Nozomi neso to #{neso.mentions}"
-                elsif neso.content.include?
+                elsif neso.content.include? "nico"
                     bot.create_reaction(<:NicoNeso:661033813585035314>)
                     bot.respond "Gave Nico neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? "chika"
                     bot.create_reaction(<:ChikaNeso:661033545157967872>)
                     bot.respond "Gave Chika neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? "you"
                     bot.create_reaction(<:YouNeso:661033922863300619>)
                     bot.respond "Gave You neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? "riko"
                     bot.create_reaction(<:RikoNeso:661033813769453591>)
                     bot.respond "Gave Riko neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? "ruby"
                     bot.create_reaction(<:RubyNeso:661033887971147796>)
                     bot.respond "Gave Ruby neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? ["maru", "hanamaru"]
                     bot.create_reaction(<:HanamaruNeso:661033812834123776>)
                     bot.respond "Gave Maru neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? ["yoshiko", "yohane"]
                     bot.create_reaction(<:YohaneNeso:661033922892791849>)
                     bot.respond "Gave Yohane neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? "dia"
                     bot.create_reaction(<:DiaNeso:661033526107439105>)
                     bot.respond "Gave Dia neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? "mari"
                     bot.create_reaction(<:MariNeso:661033813127987210>)
                     bot.respond "Gave Mari neso to #{neso.mentions}"
-                elsif
+                elsif neso.content.include? "kanan"
                     bot.create_reaction(<:KananNeso:661033813245427732>)
                     bot.respond "Gave Kanan neso to #{neso.mentions}"
                 end
