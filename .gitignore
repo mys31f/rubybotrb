@@ -1,5 +1,5 @@
 # Discord config file
-/data/config.yaml
+
 /run.sh
 /Gemfile.lock
 *.gem
