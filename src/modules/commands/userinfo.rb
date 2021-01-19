@@ -4,11 +4,10 @@ module Discordrb::DiscordCommands
         extend Discordrb::Member
         command :userinfo do |event|
             event << ''
-            event << "Developer ID number: #{Info.id}"
-            event << "Displayed name: #{Info.display_name}"
-            event << "Highest role: #{Info.highest_role}"
-            event << "Is bot? #{Info.bot_account}"
-            event << "Joined Woobycord: #{Info.joined_at}"
+            event << "Ruby Booster: #{Info.boosting?}"
+            event << "Nickname/Username: #{Info.display_name}"
+            event << "Roles given: #{Info.hoist_role}"
+            event << ''
         end 
     end
 end

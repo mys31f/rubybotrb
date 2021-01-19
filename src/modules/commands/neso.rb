@@ -27,7 +27,10 @@ module Bot::DiscordCommands
                 "<:AnjuNeso:666099347854721044>",
                 "<:ErenaNeso:666099306301882373>",
                 "<:RinaNeso:666112431176810496>"]
-            bot.create_reaction(neso.each)
+            reaction do |reaction|
+                neso.each
+            end
+            bot.create_reaction(reaction)
         end 
     end 
 end 
